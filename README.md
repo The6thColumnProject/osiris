@@ -24,6 +24,15 @@ FIXME: listing of options this app accepts.
 
 ...
 
+### Verify
+
+The signing key of the maintainer is kept in the repo as `pubkey`.
+Import this signing key into your gpg keychain.
+
+``` shell
+%> git cat-file blob pubkey | gpg --import
+```
+
 ### Any Other Sections
 ### That You Think
 ### Might be Useful
